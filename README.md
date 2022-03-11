@@ -1,5 +1,5 @@
 # Launch Countdown Timer
-This is a solution to the [Launch Countdown Timer](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Launch Countdown Timer](https://www.frontendmentor.io/challenges/launch-countdown-timer-N0XkGfyz-). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 ## Table of contents
 - [Launch Countdown Timer](#launch-countdown-timer)
   - [Table of contents](#table-of-contents)
