@@ -1,21 +1,24 @@
 <script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
+import CountdownTimer from './components/CountdownTimer.vue'
 </script>
-
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <CountdownTimer />
+  <div id="hills" alt=" "></div>
 </template>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+body {
+  margin: 0;
+  height: 100vh;
+  background: url(/images/bg-stars.svg), linear-gradient(#1e1e28, #30243a);
+}
+#hills {
+  background: url(/images/pattern-hills.svg) right;
+  background-size: cover;
+  /* background-position: rigth; */
+  width: 100%;
+  height: 20vh;
+  position: fixed;
+  bottom: 0;
 }
 </style>
