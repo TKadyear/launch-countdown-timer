@@ -15,10 +15,15 @@ body {
 #hills {
   background: url(/images/pattern-hills.svg) right;
   background-size: cover;
-  /* background-position: rigth; */
   width: 100%;
-  height: 20vh;
+  height: 25vh;
+  /* height: 197px; */
   position: fixed;
   bottom: 0;
+}
+@media screen(min-width: 978px) {
+  #hills {
+    height: 197px;
+  }
 }
 </style>
